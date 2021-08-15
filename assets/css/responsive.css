@@ -1,0 +1,56 @@
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+@media (max-width: 739px) {
+  .s-w-100 {
+    width: 100% !important;
+  }
+  .s-col-full {
+    width: 100% !important;
+  }
+
+  #nav {
+    width: 100%;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #nav .subnav {
+    position: initial;
+  }
+
+  #nav .subnav a {
+    background-color: rgb(65, 65, 65);
+    color: #fff;
+    padding: 5px 40px;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #header .search-bth {
+    display: none;
+  }
+
+  #header .mobile-menu-bth {
+    display: block;
+  }
+
+  #content .menbers-list img {
+    width: 60%;
+  }
+}
